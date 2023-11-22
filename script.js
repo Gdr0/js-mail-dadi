@@ -8,11 +8,11 @@
 
 // stilo una lisa delle mail
 // const mailList = [
-//   "jotaro.jmail.com",
-//   "joseph.jmail.com",
-//   "polnareff.jmail.com",
-//   "kakyoin.jmail.com",
-//   "abdul.jmail.com",
+//   "jotaro@jmail.com",
+//   "joseph@jmail.com",
+//   "polnareff@jmail.com",
+//   "kakyoin@jmail.com",
+//   "abdul@jmail.com",
 // ];
 
 // const container = document.querySelector(".container");
@@ -47,12 +47,28 @@ const mailList = [
   "abdul@jmail.com",
 ];
 
-for (let i = 0; i < mailList.length; i++) {
-  let mailL1 = mailList[i];
-  let mail = "joseph.jmail.com";
-  if (mailL1 === mail) {
-    console.log(mailL1);
-  } else {
-    console.log("la tua mail non esiste");
-  }
+// for (let i = 0; i < mailList.length; i++) {
+//   let mailL1 = mailList[i];
+//   let mail = "joseph@jmail.com";
+//   if (mailL1 === mail) {
+//     console.log(mail);
+//   } else {
+//     console.log("la tua mail non esiste");
+//   }
+// }
+
+// dadi
+// risultato computer
+computer = Math.floor(Math.random() * 6) + 1;
+console.log(computer);
+// risultato gioctore
+giocatore = Math.floor(Math.random() * 6) + 1;
+console.log(giocatore);
+
+if (computer > giocatore) {
+  console.log("computer ha vinto!");
+} else if (computer < giocatore) {
+  console.log("giocatore ha vinto");
+} else if ((computer = giocatore)) {
+  console.log("Pareggio!");
 }
